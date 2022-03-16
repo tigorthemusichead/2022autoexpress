@@ -4,87 +4,288 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Task6</title>
 </head>
 <body>
-    <section class="practics3">
-        <h1>LOREM IPSUM DOLOR</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolorem non fuga nemo, suscipit nobis recusandae quisquam magnam cum. Cumque aliquid quia adipisci nobis. Perspiciatis tempore eos error maxime tempora.</p>
-        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nesciunt error enim nulla rem harum dolor delectus maxime quod magnam fugit dolores, illo optio necessitatibus iusto explicabo ex nihil a!</span></p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sit saepe debitis, ex id asperiores quae dignissimos voluptates consequuntur ad culpa! Unde numquam, quisquam ut inventore non amet id perspiciatis?</p>
-        <h2>Lorem ipsum dolor sit amet</h2>
-        <ol>
-            <li><a href="#">Lorem ipsum dolor sit amet consectetur</a></li>
-            <li>Lorem ipsum dolor sit amet consectetur</li>
-            <li>Lorem ipsum dolor sit amet consectetur</li>
-            <li>Lorem ipsum dolor sit amet consectetur</li>
-            <li>Lorem ipsum dolor sit amet consectetur</li>
-        </ol>
-        <h2>Lorem, ipsum</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ex, sunt in repudiandae reprehenderit autem nisi? Obcaecati nihil nostrum quis quisquam facere iste porro! Provident, commodi? Laudantium omnis debitis explicabo.</p>
-        <img src="img/like.png" alt="Is loading">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur similique nobis nostrum sunt ipsam corrupti consequatur minima explicabo? Praesentium, cumque.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis dolorum amet quia expedita necessitatibus <br/> Delectus voluptatibus asperiores velit deserunt eveniet fugit accusamus a. Atque sunt culpa itaque hic voluptatum pariatur.</p>
-        <h2>Lorem, ipsum dolor</h2>
-        <ul>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing</li>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing</li>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing</li>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing</li>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing</li>
-        </ul>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum adipisci error consectetur repellat et dolore?</p>
-    </section>
-    <section class="practics4">
-        <h2>Form</h2>
-        <form action="#" metod="post">
-            <div>
-                <input type="text" name="username" tabindex="1" placeholder="username">
+    <header class="header">
+        <div class="header_wrapper">
+            <div class="logo_row">
+                <a href="#"><img src="img/logo.svg" alt="AUTOEXPRESS" class="logo"></a>
+                <h2 class="tel">+38 (050) 555 66 77</h2>
             </div>
-            <div>
-                <input type="password" name="password" tabindex="2" placeholder="password">
+            <div class="header_text">
+                <h1>
+                    авто из сша “под ключ”
+                </h1>
+                <h2 class="header_subt">
+                    ЗАКАЖИ СЕБЕ АВТО ИЗ США С ВЫГОДОЙ ДО 40%
+                </h2>
+                <p class="text">
+                    Подбор, покупка, доставка, растаможка, ремонт, оформление по договору
+                </p>
+                <a href="#" class="btn_text">КОНСУЛЬТАЦИЯ ЭКСПЕРТА</a>
+                <nav class="header_nav">
+                    <a href="#" class="header_nav_item"><img src="img/instagram.svg" alt="i"></a>
+                    <a href="#" class="header_nav_item"><img src="img/telegram.svg" alt="t"></a>
+                    <a href="#" class="header_nav_item"><img src="img/whatsapp.svg" alt="w"></a>
+                    <a href="#" class="header_nav_item"><img src="img/facebook.svg" alt="f"></a>
+                </nav>
             </div>
+            <img src="img/header_car.png" class="header_car">
+        </div>
+    </header>
+    <main class="main">
+        <section class="services">
+            <h2 class="services_title">
+                НАШИ УСЛУГИ <div class="services_title_line"></div>
+            </h2>
             <div>
-                <input type="tel" name="number" tabindex="3" placeholder="telephone number">
+                <div class="services_slider">
+                    <div>
+                        <div class="slider_item">
+                            
+                            <p class="services_par_title text">Почему ввоз авто из США?</p>
+                            <p class="text">
+                                Мы сравнили рынки США с Европейскими и поняли, что покупка автомобиля в Америке выгоднее в несколько раз, как бы парадоксально это не звучало. Это вызвано продуманной логистикой, уровнем развития сервисов по оцениванию состояния авто и самим процессом покупки автомобиля.
+                            </p>
+                            <p class="text">
+                                Большинство граждан США берут автомобиль в лизинг на несколько лет и все время эксплуатации сама лизинговая компания занимается постоянным ТО автомобиля, вследствие чего, машины из США – один из лучших выборов для автолюбителей Украины.
+                            </p>
+                            <p class="services_par_title text">Из-за чего такая низкая цена?</p>
+                            <p class="text">
+                                Битые автомобили из США выкупаются с аукционов страховых компаний. На этих аукционах машина теряет половину цены даже из-за минимальных повреждений. Если учитывать денежные затраты, а именно выкуп, доставку, таможню и ремонт, то цена аналогичного по состоянию автомобиля в Украине будет выше на 35-50%, а новые будут стоить космических денег.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="slider_item">
+                            
+                            <p class="services_par_title text">Почему ввоз авто из США?</p>
+                            <p class="text">
+                                Мы сравнили рынки США с Европейскими и поняли, что покупка автомобиля в Америке выгоднее в несколько раз, как бы парадоксально это не звучало. Это вызвано продуманной логистикой, уровнем развития сервисов по оцениванию состояния авто и самим процессом покупки автомобиля.
+                            </p>
+                            <p class="text">
+                                Большинство граждан США берут автомобиль в лизинг на несколько лет и все время эксплуатации сама лизинговая компания занимается постоянным ТО автомобиля, вследствие чего, машины из США – один из лучших выборов для автолюбителей Украины.
+                            </p>
+                            <p class="services_par_title text">Из-за чего такая низкая цена?</p>
+                            <p class="text">
+                                Битые автомобили из США выкупаются с аукционов страховых компаний. На этих аукционах машина теряет половину цены даже из-за минимальных повреждений. Если учитывать денежные затраты, а именно выкуп, доставку, таможню и ремонт, то цена аналогичного по состоянию автомобиля в Украине будет выше на 35-50%, а новые будут стоить космических денег.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="slider_item">
+                            
+                            <p class="services_par_title text">Почему ввоз авто из США?</p>
+                            <p class="text">
+                                Мы сравнили рынки США с Европейскими и поняли, что покупка автомобиля в Америке выгоднее в несколько раз, как бы парадоксально это не звучало. Это вызвано продуманной логистикой, уровнем развития сервисов по оцениванию состояния авто и самим процессом покупки автомобиля.
+                            </p>
+                            <p class="text">
+                                Большинство граждан США берут автомобиль в лизинг на несколько лет и все время эксплуатации сама лизинговая компания занимается постоянным ТО автомобиля, вследствие чего, машины из США – один из лучших выборов для автолюбителей Украины.
+                            </p>
+                            <p class="services_par_title text">Из-за чего такая низкая цена?</p>
+                            <p class="text">
+                                Битые автомобили из США выкупаются с аукционов страховых компаний. На этих аукционах машина теряет половину цены даже из-за минимальных повреждений. Если учитывать денежные затраты, а именно выкуп, доставку, таможню и ремонт, то цена аналогичного по состоянию автомобиля в Украине будет выше на 35-50%, а новые будут стоить космических денег.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="slider_item">
+                            
+                            <p class="services_par_title text">Почему ввоз авто из США?</p>
+                            <p class="text">
+                                Мы сравнили рынки США с Европейскими и поняли, что покупка автомобиля в Америке выгоднее в несколько раз, как бы парадоксально это не звучало. Это вызвано продуманной логистикой, уровнем развития сервисов по оцениванию состояния авто и самим процессом покупки автомобиля.
+                            </p>
+                            <p class="text">
+                                Большинство граждан США берут автомобиль в лизинг на несколько лет и все время эксплуатации сама лизинговая компания занимается постоянным ТО автомобиля, вследствие чего, машины из США – один из лучших выборов для автолюбителей Украины.
+                            </p>
+                            <p class="services_par_title text">Из-за чего такая низкая цена?</p>
+                            <p class="text">
+                                Битые автомобили из США выкупаются с аукционов страховых компаний. На этих аукционах машина теряет половину цены даже из-за минимальных повреждений. Если учитывать денежные затраты, а именно выкуп, доставку, таможню и ремонт, то цена аналогичного по состоянию автомобиля в Украине будет выше на 35-50%, а новые будут стоить космических денег.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="slider_item">
+                            
+                            <p class="services_par_title text">Почему ввоз авто из США?</p>
+                            <p class="text">
+                                Мы сравнили рынки США с Европейскими и поняли, что покупка автомобиля в Америке выгоднее в несколько раз, как бы парадоксально это не звучало. Это вызвано продуманной логистикой, уровнем развития сервисов по оцениванию состояния авто и самим процессом покупки автомобиля.
+                            </p>
+                            <p class="text">
+                                Большинство граждан США берут автомобиль в лизинг на несколько лет и все время эксплуатации сама лизинговая компания занимается постоянным ТО автомобиля, вследствие чего, машины из США – один из лучших выборов для автолюбителей Украины.
+                            </p>
+                            <p class="services_par_title text">Из-за чего такая низкая цена?</p>
+                            <p class="text">
+                                Битые автомобили из США выкупаются с аукционов страховых компаний. На этих аукционах машина теряет половину цены даже из-за минимальных повреждений. Если учитывать денежные затраты, а именно выкуп, доставку, таможню и ремонт, то цена аналогичного по состоянию автомобиля в Украине будет выше на 35-50%, а новые будут стоить космических денег.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="slider_item">
+                            
+                            <p class="services_par_title text">Почему ввоз авто из США?</p>
+                            <p class="text">
+                                Мы сравнили рынки США с Европейскими и поняли, что покупка автомобиля в Америке выгоднее в несколько раз, как бы парадоксально это не звучало. Это вызвано продуманной логистикой, уровнем развития сервисов по оцениванию состояния авто и самим процессом покупки автомобиля.
+                            </p>
+                            <p class="text">
+                                Большинство граждан США берут автомобиль в лизинг на несколько лет и все время эксплуатации сама лизинговая компания занимается постоянным ТО автомобиля, вследствие чего, машины из США – один из лучших выборов для автолюбителей Украины.
+                            </p>
+                            <p class="services_par_title text">Из-за чего такая низкая цена?</p>
+                            <p class="text">
+                                Битые автомобили из США выкупаются с аукционов страховых компаний. На этих аукционах машина теряет половину цены даже из-за минимальных повреждений. Если учитывать денежные затраты, а именно выкуп, доставку, таможню и ремонт, то цена аналогичного по состоянию автомобиля в Украине будет выше на 35-50%, а новые будут стоить космических денег.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div>
-                <input type="email" name="email" tabindex="4" placeholder="email">
+            <div class="button_wrapper">
+                <a href="#" class="btn_text">КОНСУЛЬТАЦИЯ ЭКСПЕРТА</a>
+                <div class="services_btn_line"></div>
+                <p class="btn_beyond">жми</p>
             </div>
-            <br>
-            <div>
-                <input type="radio" name="version" tabindex="5" checked> <span>buy</span>
+        </section>
+        <section class="reasons">
+            <img src="img/reasons_car.png" class="reasons_car">
+            <div class="reasons_text_wrapper">
+                <h2 class="services_title">
+                    ПОЧЕМУ МЫ? <div class="services_title_line"></div>
+                </h2>
+                <div class="reasons_text_box">
+                    <h2>650</h2>
+                    <h3>успешно доставленных авто</h3>
+                    <div class="text">большой опыт пригона автомобилей из США под ключ, все клиенты остались довольны на 100%</div>
+                    <h2>5</h2>
+                    <h3>лет на рынке Украины</h3>
+                    <div class="text">Работаем по всей территории Украины, работаем по договору с клиентами</div>
+                    <h2>100 %</h2>
+                    <h3>доверия клиентов</h3>
+                    <div class="text">Онлайн отчетность. Вы всегда в курсе статуса подбора вашего авто. Фото и видео отчет</div>
+                </div>
             </div>
-            <div>
-                <input type="radio" name="version" tabindex="5"> <span>free trial</span>
+        </section>
+        <section class="cars_slider">
+            <h2 class="services_title">
+                ПРИГНАННЫЕ НАМИ АВТО <div class="services_title_line"></div>
+            </h2>
+            <div class="car_slider_wrapper">
+                <div>
+                    <div class="car_card">
+                        <img src="img/car1.jpg" class="car_card_img">
+                        <div class="car_card_text">
+                            <p class="text">INFINITI QX50 2016 г.</p>
+                            <p class="text">Экономия 4500 $</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="car_card">
+                        <img src="img/car2.jpg" class="car_card_img">
+                        <div class="car_card_text">
+                            <p class="text">TESLA MODEL 3 2018 г.</p>
+                            <p class="text">Экономия 5500 $</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="car_card">
+                        <img src="img/car3.jpg" class="car_card_img">
+                        <div class="car_card_text">
+                            <p class="text">TESLA MODEL 3 2018 г.</p>
+                            <p class="text">Экономия 5500 $</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="car_card">
+                        <img src="img/car1.jpg" class="car_card_img">
+                        <div class="car_card_text">
+                            <p class="text">INFINITI QX50 2016 г.</p>
+                            <p class="text">Экономия 4500 $</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="car_card">
+                        <img src="img/car2.jpg" class="car_card_img">
+                        <div class="car_card_text">
+                            <p class="text">TESLA MODEL 3 2018 г.</p>
+                            <p class="text">Экономия 5500 $</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="car_card">
+                        <img src="img/car3.jpg" class="car_card_img">
+                        <div class="car_card_text">
+                            <p class="text">TESLA MODEL 3 2018 г.</p>
+                            <p class="text">Экономия 5500 $</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="contacts">
+            <div class="contacts_item">
+                <h2 class="services_title">
+                    КОНТАКТЫ <div class="services_title_line"></div>
+                </h2>
+                <p class="contacts_par_title text cpt_first">
+                    Адрес
+                </p>
+                <p class="text">
+                    Киев, Подол
+                </p>
+                <p class="text">
+                    ул. Константиновская, д.71
+                </p>
+                <p class="contacts_par_title text">
+                    Время работы
+                </p>
+                <p class="text">
+                    Пн-Сб: с 9:00 до 19:00,
+                </p>
+                <p class="text">
+                    Вс: выходной
+                </p>
+                <p class="contacts_par_title text">
+                    Телефон
+                </p>
+                <p class="text">
+                    +38 (050) 555 66 77
+                </p>
             </div>
-            <br>
-            <div>
-                <select name="OS" tabindex="6">
-                    <option value="win">Windows</option>
-                    <option value="mac">MacOS</option>
-                    <option value="linux">Linux</option>
-                    <option value="android">Android</option>
-                    <option value="ios">IOS</option>
-                </select>
-                <input type="file" name="img">
+            <form action="#" method="post" class="contacts_item">
+                <h2 class="services_title">
+                    Оставить заявку <div class="services_title_line"></div>
+                </h2>
+                <input type="text" class="input text" name="name" placeholder="Как Вас зовут?">
+                <input type="tel" class="input text" name="tel" placeholder="Ваш номер телефона">
+                <button class="btn_text" type="submit">Отправить заявку</button>
+            </form>
+        </section>
+        <section class="footer_logo">
+            <div class="footer_logo_wrapper">
+                <img src="img/logo.svg" alt="AUTOEXPRESS" class="logo">
+                <nav class="footer_nav">
+                    <a href="#" class="header_nav_item"><img src="img/instagram.svg" alt="i"></a>
+                    <a href="#" class="header_nav_item"><img src="img/telegram.svg" alt="t"></a>
+                    <a href="#" class="header_nav_item"><img src="img/whatsapp.svg" alt="w"></a>
+                    <a href="#" class="header_nav_item"><img src="img/facebook.svg" alt="f"></a>
+                </nav>
+                <a href="#" class="text conf_pol">Политика конфиденциальности</a>
             </div>
-            <br>
-            <div>
-                <textarea name="comment" placeholder="Your expectations of our product"></textarea>
-            </div>
-            <br>
-            <div>
-                <input type="checkbox" name="subscribtion" tabindex="7" checked> <span>I agree to recieve info about the current updates via email</span>
-            </div>
-            <div>
-                <input type="checkbox" name="subscribtion" tabindex="8" disabled> <span>I don't want my personal data to be sold</span>
-            </div>
-            <br>
-            <div>
-                <button type="submit">Send</button>
-                <button type="reset">Cancel</button>
-            </div>
-        </form>
-    </section>
+        </section>
+    </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
